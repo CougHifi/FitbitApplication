@@ -1,6 +1,6 @@
 #include "Libraries.h"
 
-/*See as to if you have time to implement Inheritence later down the line.*/
+
 class DietPlan
 {
 private:
