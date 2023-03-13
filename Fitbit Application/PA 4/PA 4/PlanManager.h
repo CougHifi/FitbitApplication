@@ -63,10 +63,8 @@ public:
 	void setWeeklyPlanPtr(WeeklyPlan *newWeeklyPlanPtr);
 	void setWeeklyPlanAvailablePtr(bool *newWeeklyPlan);
 
-//	void displayMenu();
-//	int getMenuOption() const;
+
 	bool createWeeklyPlan();
-	//bool deleteWeeklyPlan();
 	bool updateWeeklyPlan();
 	void displayWeeklyPlan() const;
 	int findWeeklyPlan() const;
