@@ -41,20 +41,4 @@ public:
 	
 };
 
-//class ExercisePlan
-//{
-//private:
-//	int GoalSteps = 0;
-//	string PlanName;
-//	string date;
-//public:
-//
-//};
 
-//class FitnessAppWrapper
-//{
-//private:
-//
-//public:
-//
-//};
