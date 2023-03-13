@@ -102,11 +102,6 @@ double DietPlan::days(double newDays)
 	return (newDays);
 }
 
-/*Do I need Time?*/
-//double DietPlan::time(double newTime)
-//{
-//	
-//}
 
 
 void DietPlan::printDietplan()
