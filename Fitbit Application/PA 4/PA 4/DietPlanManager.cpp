@@ -26,9 +26,7 @@ DietplanManager::DietplanManager(int maxNumberOfPlans)
 
 DietplanManager::~DietplanManager()
 {
-	/*I do need to use these right now.*/
-	/*delete[]mDietplanPtr;
-	delete[]mDietplanAvailablePtr;*/
+	
 	
 }
 
@@ -84,9 +82,7 @@ int DietplanManager::getMenuOption() const
 	cin >> option;
 	return option;
 }
-//This is where you are making the Dietplan account.
-/*http://www.cplusplus.com/doc/tutorial/files/*/
-/*The create plan function will be used for both edit function and also the store functions. This will also change to get the days and information for that.*/
+
 bool DietplanManager::createPlan()
 {
 	ofstream DietplanFile;
@@ -167,11 +163,7 @@ bool DietplanManager::updatePlan()
 	bool success = false;
 	string name = "", dateCreated = "";
 	int counter = 0, option = 0;
-	/*Insert the information that you can modify*/
-	
-	//counter = findPlan();
 
-	/*Account is found time to delete it.*/
 	if ((counter < mNumberOfPlans) && (mDietplanAvailablePtr[counter] == false))
 	{
 		success = true;
@@ -195,16 +187,12 @@ bool DietplanManager::updatePlan()
 	DietplanFile.close();
 	return success;
 }
-/***********************************************************************/
-/*I looked at this website to help me figure out how to read in a file. 
-http://www.cplusplus.com/doc/tutorial/files/
-************************************************************************/
+
 void DietplanManager::displayPlan() const
 {
 	ifstream DisplayDietPlanFile("TestingDietPlan.txt");
 	string line;
-	//int counter = 0;
-	//counter = findPlan();
+
 
 	if (DisplayDietPlanFile.is_open())
 	{
@@ -214,16 +202,7 @@ void DietplanManager::displayPlan() const
 		}
 	}
 	
-	//if ((counter < mNumberOfPlans) && (mDietplanAvailablePtr[counter] == false))/*the account has been found*/
-	//{
-	//	mDietplanPtr[counter].printDietplan();
-	//	cout << line << '\n'<<endl;
-
-	//}
-	//else
-	//{
-	//	cout << "Error: The plan does not exist" << endl;
-	//}
+	
 	DisplayDietPlanFile.close();
 }
 
@@ -287,17 +266,7 @@ void DietplanManager::runDietPlanApplication()
 			}
 			break;
 
-		//case 8 will be updating the daily exercise plan. while case 7 is going to update the daily diet plan. They use the same function but they will be modifying two different text files.
-
-		
-
-	
-
-		/*case 5: createPlan();
-			break;*/
-			
-		
-		
+				
 		case 9: status = false;
 			break;
 		
