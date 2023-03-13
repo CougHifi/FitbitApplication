@@ -1,0 +1,29 @@
+Super Awesome Plan
+Pushups
+10000
+1/01/2018
+
+Name Of Plan: De Luce Plan
+Goal: Swimming
+Date in which it is created: 1/02/2018
+
+Name Of Plan: Screaming Eagles Plan
+Goal: Running
+Date in which it is created: 1/03/2018
+
+Name Of Plan: Workout mark2
+Goal: Bench Press
+Date in which it is created: 1/04/2018
+
+Name Of Plan: iron plan
+Goal: Free Weights
+Date in which it is created: 1/05/2018
+
+Name Of Plan: Sabaton Plan
+Goal: Situps
+Date in which it is created: 1/06/2018
+
+Name Of Plan: PowerWolf Plan
+Goal: Biking
+Date in which it is created: 1/07/2018
+
