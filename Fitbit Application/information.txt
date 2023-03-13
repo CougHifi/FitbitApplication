@@ -1,2 +1,0 @@
-use the testingexercise plan.txt and the testing DietPlan.txt to test the functions and when it is done then change the text files to the Dietplan and 
-exercise plan.txt
